@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White_Blue"
+    tools:context=".SingUpActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="109dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_77sdp"
+                android:autofillHints="@color/black"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:src="@drawable/calculator" />
+
+            <Button
+                android:id="@+id/CalculatorButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_75sdp"
+                android:layout_marginRight="@dimen/_25sdp"
+                android:background="@drawable/background_1"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:gravity="center"
+                android:padding="@dimen/_30sdp"
+                android:pointerIcon="alias"
+                android:text="Calculator"
+                android:textAlignment="3"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_20sdp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:layout_width="109dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_200sdp"
+                android:autofillHints="@color/black"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:src="@drawable/stop_watch" />
+
+            <Button
+                android:id="@+id/Stop_Watch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_200sdp"
+                android:layout_marginRight="@dimen/_25sdp"
+                android:background="@drawable/background_1"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:gravity="center"
+                android:padding="@dimen/_30sdp"
+                android:pointerIcon="alias"
+                android:text="Stop Watch"
+                android:textAlignment="3"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_20sdp"
+                android:textStyle="bold" />
+
+
+
+            <ImageView
+                android:layout_width="109dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_455sdp"
+                android:autofillHints="@color/black"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:src="@drawable/keys" />
+
+            <Button
+                android:id="@+id/DicerollerButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_325sdp"
+                android:layout_marginRight="@dimen/_25sdp"
+                android:background="@drawable/background_1"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:gravity="center"
+                android:padding="@dimen/_30sdp"
+                android:pointerIcon="alias"
+                android:text="Dice Roller"
+                android:textAlignment="3"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_20sdp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="109dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_575sdp"
+                android:autofillHints="@color/black"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:src="@drawable/computer_logo" />
+
+            <Button
+                android:id="@+id/shortcutKey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_450sdp"
+                android:layout_marginRight="@dimen/_25sdp"
+                android:background="@drawable/background_1"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:gravity="center"
+                android:padding="@dimen/_35sdp"
+                android:pointerIcon="alias"
+                android:text="Shortcut Keys"
+                android:textAlignment="3"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="109dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_329sdp"
+                android:autofillHints="@color/black"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:src="@drawable/diceroller" />
+
+
+            <Button
+                android:id="@+id/About_Computer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_575sdp"
+                android:layout_marginRight="@dimen/_25sdp"
+                android:background="@drawable/background_1"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:gravity="center"
+                android:padding="@dimen/_35sdp"
+                android:pointerIcon="alias"
+                android:text="About Computer"
+                android:textAlignment="3"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

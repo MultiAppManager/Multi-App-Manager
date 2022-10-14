@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@color/White_Blue"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sing_in1"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="50dp"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/Username"
+        android:hint="@string/email"
+        android:textSize="25sp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/edittextbackground"
+        android:layout_marginBottom="30dp"
+        android:paddingStart="20dp"
+        tools:ignore="RtlSymmetry"
+        android:autofillHints="emailAddress"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/Passaword"
+        android:hint="@string/password1"
+        android:textSize="25sp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/edittextbackground"
+        android:layout_marginBottom="30dp"
+        android:paddingStart="20dp"
+        tools:ignore="RtlSymmetry"
+        android:autofillHints="password"
+        android:inputType="textPassword" />
+
+
+    <Button
+        android:id="@+id/SingIn"
+        android:layout_width="393dp"
+        android:layout_height="68dp"
+        android:layout_marginBottom="38dp"
+        android:text="@string/sing_in2"
+        android:textStyle="bold"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/Medium_Blue"
+        />
+    <Button
+        android:id="@+id/SingUp"
+        android:layout_width="393dp"
+        android:layout_height="68dp"
+        android:layout_marginBottom="38dp"
+        android:text="@string/sing_up1"
+        android:textStyle="bold"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/Medium_Blue"
+        />
+</LinearLayout>

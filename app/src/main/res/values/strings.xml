@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Multi App Manager</string>
+    <string name="sing_up">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="sing_in">Sign In</string>
+    <string name="sing_in1">Sign In</string>
+    <string name="username">Username</string>
+    <string name="password1">Password</string>
+    <string name="sing_in2">Sign In</string>
+    <string name="sing_up1">Sign Up</string>
+    <string name="What_is_Computer">The computer is an electronic device that store, retrieve and process the data in binary form according to our need. It takes some input, process it, and produces some output”. The word computer is derived by the Latin word “computare,” which means that “to calculate and programmable machine.”</string>
+    <string name="What_is_Computer1">The computer is work according to the individual instructions; there is no IQ level in computers like a human being.</string>
+    <string name="What_is_Computer2">The computer can process both numerical and non-numerical (arithmetic and logical) calculations. Mostly, the computer operations are related to manipulation of data, which is stored in different types of memory.</string>
+    <string name="What_is_Computer3">The bit is the smallest unit of computer memory, the group of eight bits is known as Byte. The computer can be instructed to carry out sequences of arithmetical and logical operations automatically by computer programming, and it works with the software program. The computer shows the decimal number through a string of binary digits; the word computer usually refers to the central processing unit and internal memory.</string>
+    <string name="place_hoder">00:00:00</string>
+    <string name="start">Start</string>
+    <string name="reset">Reset</string>
+    <string name="stop">Stop</string>
+    <string name="place_holder_time">00:00:00</string>
+</resources>
